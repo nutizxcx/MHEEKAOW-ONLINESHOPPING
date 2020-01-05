@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Add/Edit Product | MheeKaow Co., Ltd.</title>
+    <link rel="stylesheet" href="css/staff.css" type="text/css">
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/sa_addProduct.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h2 class="logo">MheeKaow</h2>
+        <input type="checkbox" name="menu" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="menu">
+            <a href="sa_productList.html">Product list</a>
+            <a href="mix/orderHistory.php">Order history</a>
+            <a href="mix/restockform.php">Stock history</a>
+            <a href="mix/manuList.php">Manufacturer</a>
+            <a href="login_staff.html">Log out (<span id="nameOut"></span>)</a>
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </div>
+    <center>
+        <h1>Add Products</h1>
+    </center>
+    <div class="addForm">
+        <form name="addEditProduct" method="POST">
+            <fieldset id="first">
+                <div class="progress">
+                    <span style="background-color: #4CAF50;"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="head">Product Information</div><br>
+                <div class="formFirst">
+                    <div class="text-in-form" style="display: inline">Product Name </div>
+                    <input name="productName" class="productImg" id="productName" type="text" placeholder="e.g. NIKKE"><br>
+                    <div class="text-in-form" style="display: inline">Detail </div>
+                    <textarea name="detail" id="detail" cols="10" rows="3" placeholder="...."></textarea><br>
+                    <div class="text-in-form" style="display: inline">ManufacturerID </div>
+                    <input name="manufacturerId" id="manufactureID" type="text" maxlength="4" placeholder="e.g. 1000"><br>
+                </div>    
+                <input class="next_btn" name="next" type="button" value="Next">    
+            </fieldset>
+            <fieldset id="second">
+                <div class="progress">
+                    <span></span>
+                    <span style="background-color: #4CAF50;"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="head">SKU Attributes</div><br>
+                <div class="formSecond">
+                    <div class="text-in-form" style="display: inline">Category</div>
+                    <select id="categoryDrop">
+                        <option>-- Select Category --</option>
+                        <option value="FIT">Fitness</option>
+                        <option value="BAS">Basketball</option>
+                        <option value="RUN">Running</option>
+                        <option value="TRV">Travel</option>
+                        <option value="BOT">Boot</option>
+                        <option value="FAS">Fashion</option>
+                    </select><br>
+                    <div class="text-in-form" style="display: inline">Group</div>
+                    <select id="groupDrop">
+                        <option>-- Select Group --</option>
+                        <option value="M">Men</option>
+                        <option value="W">Women</option>
+                        <option value="U">Unisex</option>
+                    </select><br>
+                    <div class="size">
+                        <div class="text-in-form" style="display: inline">Size</div>
+                        <div class="input">
+                            <input type="checkbox" name="size1" class="sizeCheck" value="380">38
+                            <input type="checkbox" name="size2" class="sizeCheck" value="385">38.5
+                            <input type="checkbox" name="size3" class="sizeCheck" value="390">39
+                            <input type="checkbox" name="size4" class="sizeCheck" value="395">39.5 <br>
+                            <input type="checkbox" name="size5" class="sizeCheck" value="400">40
+                            <input type="checkbox" name="size6" class="sizeCheck" value="405">40.5
+                            <input type="checkbox" name="size7" class="sizeCheck" value="410">41
+                            <input type="checkbox" name="size8" class="sizeCheck" value="415">41.5 <br>
+                            <input type="checkbox" name="size9" class="sizeCheck" value="420">42
+                            <input type="checkbox" name="size10" class="sizeCheck" value="425">42.5
+                            <input type="checkbox" name="size11" class="sizeCheck" value="430">43 
+                            <input type="checkbox" name="size12" class="sizeCheck" value="435">43.5 <br>
+                            <input type="checkbox" name="size13" class="sizeCheck" value="440">44
+                            <input type="checkbox" name="size14" class="sizeCheck" value="445">44.5
+                            <input type="checkbox" name="size15" class="sizeCheck" value="450">45 <br>   
+                        </div>
+                    </div>
+                    <div class="text-in-form" style="display: inline">Color</div>
+                    <input type="text" name="color" class="color" placeholder="Color Name" id="color1">
+                    <input type="text" name="colorID" class="colorID" placeholder="Color code" id="colorID1">
+                    <input type="text" name="color" class="color" placeholder="Color Name" id="color2">
+                    <input type="text" name="colorID" class="colorID" placeholder="Color code" id="colorID2">
+                </div>
+                <input class="pre_btn" name="previous" type="button" value="Previous">
+                <input class="next_btn_query" name="next" type="button" value="Next">
+            </fieldset>
+            <fieldset id="third">
+                <div class="progress">
+                    <span></span>
+                    <span></span>
+                    <span style="background-color: #4CAF50;"></span>
+                    <span></span>
+                </div>
+                <div class="head">Price</div><br>
+                <div class="formThird">
+                    <div class="text-in-form" style="display: inline">Cost </div>
+                    <input type="number" name="cost" id="cost"><br>
+                    <div class="text-in-form" style="display: inline">Selling Price </div>
+                    <input type="number" name="sellPrice" id="sellPrice"><br>
+                    <div class="text-in-form" style="display: inline">Amount </div>
+                    <input type="number" name="amount" id="amount"><br>
+                </div>
+                <input class="pre_btn" type="button" value="Previous">
+                <input class="next_btn" name="next" type="button" value="Next">    
+            </fieldset>
+            <fieldset id="fourth">
+                <div class="progress">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span style="background-color: #4CAF50;"></span>
+                </div>
+                <div class="head">Image</div><br>
+                <div class="formFourth">
+                    <h2 class="showSKU1"></h2>
+                    <input name="productImg1" class="productImg" type="text" placeholder="URL Image 1"><br>
+                    <input name="productImg2" class="productImg" type="text" placeholder="URL Image 2"><br>
+                    <input name="productImg3" class="productImg" type="text" placeholder="URL Image 3"><br>
+                    <span class="more" style="display: none;">
+                        <h2 class="showSKU2"></h2><br>
+                        <input name="productImg1" class="productImg" type="text" placeholder="URL Image 1"><br>
+                        <input name="productImg2" class="productImg" type="text" placeholder="URL Image 2"><br>
+                        <input name="productImg3" class="productImg" type="text" placeholder="URL Image 3"><br>
+                    </span>
+                </div>
+                <input class="pre_btn" type="button" value="Previous">
+                <input class="submit_btn" type="button" value="Submit">    
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

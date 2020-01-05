@@ -1,0 +1,866 @@
+.poster{
+  transition: filter 0.7s;
+}
+
+.poster:hover{
+  filter: opacity(70%);
+}
+
+
+.maleSneakerPic1{
+  transition: filter 0.7s;
+}
+
+.maleSneakerPic1:hover{
+  filter: opacity(70%);
+}
+
+.maleSneakerPic2{
+  transition: filter 0.7s;
+}
+
+.maleSneakerPic2:hover{
+  filter: opacity(70%);
+}
+
+.maleSneakerPic3{
+  transition: filter 0.7s;
+}
+
+.maleSneakerPic3:hover{
+  filter: opacity(70%);
+}
+
+.pic2{
+  transition: filter 0.7s;
+}
+
+.pic3{
+  transition: filter 0.7s;
+}
+
+.pic4{
+  transition: filter 0.7s;
+}
+
+
+.pic2:hover{
+  filter: opacity(70%);
+}
+
+.pic3:hover{
+  filter: opacity(70%);
+}
+
+.pic4:hover{
+  filter: opacity(70%);
+}
+
+.delAdd {
+  border:0;
+  font-size: 13px;
+}
+
+.addCred {
+  transition: filter 0.5s;
+}
+
+.addCred:hover {
+  cursor: pointer; 
+  filter: opacity(50%);
+}
+
+.chgCred{
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 30px; 
+  font-size:13px;
+  transition: color 0.6s;
+}
+.chgCred:hover{
+  border: 1px solid white; 
+  background: black; 
+  color:white;
+}
+
+.chgAdd{
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 30px; 
+  font-size:13px;
+  transition: color 0.6s;
+}
+.chgAdd:hover{
+  border: 1px solid white; 
+  background: black; 
+  color:white;
+}
+
+.addAdd{
+  transition: filter 0.5s;
+}
+
+.addAdd:hover{
+  cursor: pointer; 
+  filter: opacity(50%);
+}
+
+
+.chgPass{
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 30px; 
+  font-size:13px;
+  transition: color 0.6s;
+}
+
+.chgPass:hover{
+  border: 1px solid white; 
+  background: black; 
+  color:white;
+}
+
+.toNewPass{
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 30px; 
+  font-size:13px;
+  transition: color 0.6s;
+}
+
+
+.toNewPass:hover{
+  border: 1px solid white; 
+  background: black; 
+  color:white;
+}
+
+.chgUsrData{
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 30px; 
+  font-size:13px;
+  transition: color 0.6s;
+}
+
+.chgUsrData:hover{
+  border: 1px solid white; 
+  background: black; 
+  color:white;
+}
+
+.editUser{
+  transition: color 0.5s;
+}
+
+.editID{
+  transition: color 0.5s;
+}
+
+.editAddress{
+  transition: color 0.5s;
+}
+
+.editCredit{
+  transition: color 0.5s;
+}
+
+
+.editUser:hover{
+  cursor: pointer;
+  color: #8A8A8A;
+}
+
+.editID:hover{
+  cursor: pointer;
+  color: #8A8A8A;
+}
+
+.editAddress:hover{
+  cursor: pointer;
+  color: #8A8A8A;
+}
+
+.editCredit:hover{
+  cursor: pointer;
+  color: #8A8A8A;
+}
+
+.recordSelect:hover{
+    cursor: pointer;
+    background: 	#404040;
+    color: white;
+}
+
+
+.checkOutBut{
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 30px; 
+  font-size:13px;
+  transition: color 0.6s;
+}
+
+.checkOutBut:hover {
+  border: 1px solid white; 
+  background: black; 
+  color:white;
+
+}
+
+.returnChooseBut{
+  border-radius:13px; 
+  background: white;
+}
+
+.returnChooseBut:hover{
+
+  background: black; 
+  color:white;
+}
+
+.orderIdBut{
+  position:absolute; 
+  top:37%; 
+  left:46%; 
+  border-radius:13px; 
+  border: 1px solid black;  
+  padding:5px 31px;
+}
+
+.orderIdBut:hover{
+  border: 1px solid black; 
+  background: black; 
+  color:white;
+}
+
+.contShopping {
+  position: absolute;
+  top: 40%;
+  left:42%;
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 30px; 
+}
+
+.contShopping:hover {
+  border: 1px solid black; 
+  background: black; 
+  color:white;
+}
+
+.addToCart{
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 30px; 
+
+}
+
+.addToCart:hover{
+  border: 1px solid black; 
+  background: black; 
+  color:white;
+
+}
+
+.exploreBut{
+  position:absolute; 
+  left:46.8%; 
+  top:59%; 
+  border: 1px solid gray; 
+  border-radius: 13px; 
+  background: white; 
+  color:#8A8A8A;  
+  padding:5px 30px; 
+  transition: color 0.5s ,border 0.5s;
+}
+
+.exploreBut:hover{
+  border: 1px solid black; 
+  background: black; 
+  color:white;
+}
+
+.haveDiscount{
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 30px; 
+  font-size:13px;
+  transition: color 0.6s;
+}
+
+.haveDiscount:hover {
+
+  border: 1px solid black; 
+  background: black; 
+  color:white;
+}
+
+.checkDisCode{
+  border: 1px solid black;
+  border-radius: 13px; 
+  padding:5px 25px; 
+  font-size:13px;
+  transition: color 0.6s;
+}
+
+.checkDisCode:hover {
+  border: 1px solid black; 
+  background: black; 
+  color:white;
+}
+
+
+.cartLogo {
+  height: 15px;
+  margin: 0 15px 0 15px;
+  transition: filter 0.5s;
+}
+
+.cartLogo:hover {
+  filter: opacity(50%);
+}
+
+#unidropdown-content {
+  position: absolute;
+  top:60px;
+  left: 170px;
+  margin: 0;
+  min-width: 400px;
+  padding: 14px 45px;
+  background: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+
+#unidropdown-content a{
+  font-size: 14px;
+  color: black;
+  padding: 7px 8px;
+  text-decoration: none;
+  display: block;
+} 
+
+#unidropdown-content a:hover {
+  color: #8A8A8A;
+}
+
+#femaledropdown-content {
+  position: absolute;
+  top:60px;
+  left: 120px;
+  margin: 0;
+  min-width: 400px;
+  padding: 14px 45px;
+  background: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+
+#femaledropdown-content a{
+  font-size: 14px;
+  color: black;
+  padding: 7px 8px;
+  text-decoration: none;
+  display: block;
+} 
+
+#femaledropdown-content a:hover {
+  color: #8A8A8A;
+}
+
+#maledropdown-content {
+  position: absolute;
+  top:60px;
+  left: 70px;
+  margin: 0;
+  min-width: 400px;
+  padding: 14px 45px;
+  background: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+
+#maledropdown-content a{
+  font-size: 14px;
+  color: black;
+  padding: 7px 8px;
+  text-decoration: none;
+  display: block;
+} 
+
+#maledropdown-content a:hover {
+  color: #8A8A8A;
+}
+
+#mndropdown-content {
+  position: absolute;
+  top:60px;
+  right: 100px;
+  margin: 0;
+  min-width: 100px;
+  padding: 14px 45px;
+  background: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+#mndropdown-content a{
+  font-size: 14px;
+  color: black;
+  padding: 7px 8px;
+  text-decoration: none;
+  display: block;
+} 
+
+#mndropdown-content a:hover {
+  color: #8A8A8A;
+}
+
+.welcome {
+  display: inline;
+  margin: 0px 15px 0 15px;
+  padding: 0;
+  font-family: 'Kanit', sans-serif; 
+  font-size: 14px; 
+  color:black;
+  transition: color 0.6s;
+}
+
+.manageBut {
+  text-decoration: none;
+  margin: 0px 15px 0 15px;
+  padding: 0;
+  font-family: 'Kanit', sans-serif; 
+  font-size: 14px; 
+  color: #8A8A8A;
+  transition: color 0.6s;
+}
+
+.manageBut:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.logout {
+  margin: 0 30px 0 15px;
+  display: inline;
+  float: right;
+}
+
+
+.logoutBut {
+  margin: 4px 7px 0 7px;
+  padding: 0;
+  float: right;
+  font-family: 'Kanit', sans-serif; 
+  font-size: 14px; 
+}
+
+
+.basPic {
+  height: 670px;
+  float: right;
+  position: relative;
+  right: 130px;
+  transition: opacity 0.7s;
+  display: none;
+}
+
+.basPic:hover{
+  opacity: 0.7;
+}
+
+.bas{
+  font-size:120px;
+  position: relative;
+  left: 60px;
+  color: black;
+  transition: color 0.7s;
+}
+
+.bas:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.runPic {
+  height: 670px;
+  float: right;
+  position: relative;
+  right: 130px;
+  bottom: 360px;
+  transition: opacity 0.7s;
+  display: none;
+}
+
+.runPic:hover{
+  opacity: 0.7;
+}
+
+.run {
+  font-size:120px;
+  position: relative;
+  bottom: 85px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.7s;
+}
+
+.run:hover {
+  text-decoration: none;
+  color: yellowgreen;
+}
+
+.fit {
+  font-size:120px;
+  position: relative;
+  bottom: 170px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.7s;
+}
+
+.fit:hover {
+  text-decoration: none;
+  color: rgb(50, 161, 205);
+}
+
+.trv {
+  font-size:120px;
+  position: relative;
+  bottom: 435px;
+  left: 65px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.7s;
+}
+
+.trv:hover {
+  text-decoration: none;
+  color: rgb(134, 28, 42);
+}
+
+.fas {
+  font-size:120px;
+  position: relative;
+  bottom: 255px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.7s;
+}
+
+.fas:hover {
+  text-decoration: none;
+  color: rgb(209, 47, 161);
+}
+
+.bot {
+  font-size:120px;
+  position: relative;
+  bottom: 340px;
+  left: 60px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.7s;
+}
+.bot:hover {
+  text-decoration: none;
+  color: rgb(150, 76, 211);
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: block;
+  z-index: 548;
+  background: white;
+}
+
+#navDetail {
+  margin-top: 15px;
+
+}
+
+.pic1Text {
+  position: relative;
+  right: 200px;
+  top: 80px;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  height: 700px;
+  font-size: 150px;
+  float: right;
+  display: block;
+}
+
+.pic1But {
+  position:relative; 
+  bottom: 570px; 
+  padding:10px 60px; 
+  font-family: 'Kanit', sans-serif; 
+  font-size:23px; 
+  border: 1px solid gray; 
+  border-radius: 15px;
+  background: black;
+  color: white;
+  transition: color 2s;
+  transition: background 0.7s;
+  
+}
+
+.pic1But:hover {
+  color: black;
+  background: white;
+  
+}
+
+#shoesGroup {
+  display:inline; 
+  font-size:14px; 
+  font-family: 'Kanit', sans-serif; 
+  float: left;
+  padding: 0;
+  margin-top: 4px;
+}
+
+.pic1 {
+  position: absolute;
+  left: 5%;
+  top: 12%;
+  transition: opacity 0.7s;
+}
+
+.pic1:hover{
+  opacity: 0.7;
+}
+
+.maleShoes {
+  color: #8A8A8A;
+  display:inline; 
+  transition: color 0.6s;
+}
+
+.femaleShoes {
+  color: #8A8A8A;
+  display:inline; 
+  margin-left: 30px; 
+  transition: color 0.6s;
+}
+
+.unisexShoes {
+  color: #8A8A8A;
+  display:inline; 
+  margin-left: 30px; 
+  transition: color 0.6s;
+}
+
+.maleShoes:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.femaleShoes:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.unisexShoes:hover{
+  text-decoration: none;
+  color: black;
+}
+
+#login {
+  text-align: center;
+  display: block;
+}
+
+.loginBut {
+  display: inline;
+  margin: 2px 7px 0 7px;
+  padding: 0;
+  float: right;
+  font-family: 'Kanit', sans-serif; 
+  font-size: 14px; 
+  cursor: pointer; 
+  color: #8A8A8A;
+  transition: color 0.6s;
+}
+
+.loginBut:hover{
+  color: black;
+}
+
+.regisBut {
+  display: inline;
+  margin: 2px 20px 0 15px;
+  padding: 0;
+  float: right;
+  font-family: 'Kanit', sans-serif; 
+  font-size: 14px; 
+  cursor: pointer; 
+  color: #8A8A8A;
+  transition: color 0.6s;
+}
+
+.regisBut:hover{
+  color: black;
+}
+
+.hr1 {
+    width: 15%;
+    float: left;
+    margin-left: 22%;
+    margin-top: 20px;
+    height: 4px;
+    background: black;
+  }
+  .hr2 {
+    width: 15%;
+    float: right;
+    margin-right: 22%;
+    margin-top: 20px;
+    height: 4px;
+    background: black;
+  }
+  .tab {
+    text-align: center;
+  }
+  .input1 {
+    width: 25%;
+    padding: 5px 15px;
+    background: #f8f9f9;
+    border: 1px solid #cacfd2;
+    font-size: 13px;
+  }
+  .input2_1 {
+    width: 20%;
+    padding: 5px 20px;
+    margin: 0 32px 0 30px;
+    background: #f8f9f9;
+    border: 1px solid #cacfd2;
+    font-size: 13px;
+  }
+  .input2_2 {
+    width: 20%;
+    padding: 5px 20px;
+    position: relative;
+    right: 148px;
+    background: #f8f9f9;
+    border: 1px solid #cacfd2;
+    font-size: 13px;
+  }
+  .input2_3 {
+    width: 15%;
+    padding: 5px 20px;
+    position: relative;
+    right: 176px;
+    background: #f8f9f9;
+    border: 1px solid #cacfd2;
+    font-size: 13px;
+  }
+  .input2_4 {
+    display: inline;
+    position: relative;
+    right: 155px;
+  }
+  .input4_1 {
+    position: relative;
+    right: 60px;
+    width: 24%;
+    padding: 5px 20px;
+    background: #f8f9f9;
+    border: 1px solid #cacfd2;
+    font-size: 13px;
+  }
+  .input4_2 {
+    position: relative;
+    right: 53px;
+    width: 15%;
+    padding: 5px 20px;
+    background: #f8f9f9;
+    border: 1px solid #cacfd2;
+    font-size: 13px;
+  }
+  .input4_3 {
+    position: relative;
+    left: 23px;
+    width: 10%;
+    padding: 5px 20px;
+    background: #f8f9f9;
+    border: 1px solid #cacfd2;
+    font-size: 13px;
+  }
+
+  input[value="Login"] {
+    width: 13%;
+    padding: 5px 25px;
+    background: black;
+    color: white;
+    border: none;
+  }
+
+  input[value="Login"]:hover {
+    cursor: pointer;
+    background: #605f5f;
+  }
+
+  input[value="Next"] {
+    padding: 5px 25px;
+    background: black;
+    color: white;
+    width: 9%;
+    border: none;
+  }
+
+  input[value="Previous"] {
+    padding: 5px 25px;
+    background: black;
+    color: white;
+    width: 9%;
+    border: none;
+  }
+  input[value="Previous"]:hover {
+    cursor: pointer;
+    background: #605f5f;
+  }
+
+  input[value="Next"]:hover {
+    cursor: pointer;
+    background: #605f5f;
+  }
+  input[value="Submit"] {
+    width: 30%;
+    padding: 5px 20px;
+    background: green;
+    color: white;
+    width: 9%;
+    border: none;
+  }
+  input[value="Submit"]:hover {
+    cursor: pointer;
+  }
+  #regisNav {
+    text-align: center;
+  }
+  #regisPage {
+    width: 100%;
+    position: absolute;
+    top: 590.38px;
+    text-align: center;
+  }
+
+  .dot {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0% 2% 0% 2%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+ 
+  

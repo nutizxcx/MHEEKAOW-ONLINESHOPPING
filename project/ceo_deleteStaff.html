@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Delete Staff | MheeKaow Co., Ltd.</title>
+    <link rel="stylesheet" href="css/staff.css" type="text/css">
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ceo_deleteStaff.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h2 class="logo">MheeKaow</h2>
+        <input type="checkbox" name="menu" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="menu">
+                <a href="mix/productlist.php">Product</a>
+                <a href="mix/customerlist.php">Customer</a>
+                <a href="mix/manufacturerlist.php">Manufacturer</a>
+                <a href="mix/selllist.php">Order</a>
+                <a href="mix/trendlist.php">Trend</a>
+                <a href="mix/brokenlist.php">Broken Product</a>
+                <a href="mix/stocklist.php">Stock</a>
+                <a href="mix/stafflist.php">Staff</a>
+                <a href="login_staff.html">Log out (<span id="nameOut"></span>)</a>
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </div>
+    <center>
+        <h1>Delete Products</h1>
+    </center>
+    <div class="addForm">
+        <form name="addEditProduct">
+            <fieldset id="first">
+                    <div class="head">Staff Search</div><br>
+                    <div class="formFirst">
+                        <div class="text-in-form" style="display: inline">StaffID </div>
+                        <input type="text" id="myInput">
+                        <div id="myDropdown" class="dropdown-content">
+                            <a></a>
+                            <a></a>
+                            <a></a>
+                            <a></a>
+                            <a></a>
+                            <a></a>
+                        </div>
+                    </div>    
+                    <input class="delete" name="next" type="button" value="Delete">    
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
